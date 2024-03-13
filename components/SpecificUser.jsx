@@ -12,7 +12,7 @@ const SpecificUser = () => {
       const res = await response.json();
       setUserData(res.user);
     } else {
-      console.error("Error fetching user data");
+      console.log("Error fetching user data");
       setUserData(null);
     }
   };

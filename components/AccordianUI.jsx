@@ -30,6 +30,19 @@ const AccordianUI = () => {
         </AccordionBody>
         {/*   Search for a specific  User */}
       </Accordion>
+
+
+      
+      <Accordion open={open === 3}>
+  {/*     Create a user  */}
+  <AccordionHeader onClick={() => handleOpen()}>
+          Create a user
+        </AccordionHeader>
+        <AccordionBody>
+        <SpecificUser/>
+        </AccordionBody>
+        {/*      Create a user */}
+      </Accordion>
   </section>
   )
 }
