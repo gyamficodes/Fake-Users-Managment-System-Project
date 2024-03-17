@@ -13,7 +13,7 @@ useEffect(() => {
       };
       fetchAllUsers();
     
-})
+}, [])
     return(<section>
          <div>
       {users &&
