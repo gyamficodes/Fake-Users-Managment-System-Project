@@ -1,5 +1,6 @@
 "use client";
 
+
 import { Button, Input } from "@material-tailwind/react";
 import { useState } from "react";
 
@@ -85,3 +86,5 @@ const CreateUser = () => {
 };
 
 export default CreateUser;
+
+
