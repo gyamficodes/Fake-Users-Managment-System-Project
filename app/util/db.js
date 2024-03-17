@@ -33,5 +33,11 @@ export const users = [
     "age": 45,
     "email": "tony@gmail.com",
     "password": "tony123"
+  },
+  {
+    "id": "6",
+    "name": "Kwame",
+    "email": "gyamfijohn08@gmail.com",
+    "password": "1233"
   }
 ];
