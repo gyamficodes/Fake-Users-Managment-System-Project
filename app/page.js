@@ -1,14 +1,12 @@
 
-import { Roboto } from "next/font/google";
+import AccordianUI from "../components/AccordianUI"
 
-const roboto = Roboto({ subsets: ["latin"], weight: "500" });
 
 export default function Home() {
   return (
-    <main>
-      <main className={roboto.className}>
-        
-      </main>
-    </main>
+    <div className=" flex items-center justify-center text-centers flex-cols  text-red-700 mt-8">
+    <AccordianUI/>
+     
+     </div>
   );
 }
